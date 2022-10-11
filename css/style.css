@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: #F57F20;
+    background-color: black;
+}
+
+button:hover{
+    background-color: rgba(5, 5, 5, 0.781);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color:#F57F20;
+}
+
+header img{
+    width: 200px;
+    height: 185px;
+    margin: 0;
+    padding: 25px 30px;
+}
+
+header .container{
+    display: inline-block;
+}
+
+header ul{
+    display: inline-block;
+}
+
+header li{
+    display: inline-block;
+    margin: 30px;
+    padding: 10px 50px;
+    font-size: 30px;
+}
+
+header a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: blue;
+}
+
+#banner{
+    height: 300px;
+    font-size: 50px;
+    color: white;
+    background-image: url("../imagenes/restaurant.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin: 50px;  
+    padding: 300px 100px;
+    text-align: center;
+}
+
+#somos-xolima .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#somos-xolima h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+#conocenos{
+    background-color: rgb(158, 157, 157);
+    color: black;
+    text-align: center;
+}
+
+#conocenos .container{
+    padding: 100px, 0px;
+}
+
+#conocenos p{
+    color: white;
+}
+
+#conocenos .opcion{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 10px;
+    color: rgb(251, 255, 0);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+#conocenos h3{
+    font-size: 50px;
+}
+
+#conocenos button{
+    font-size: 30px;
+}
+
+.opcion:first-child{
+    background-image: url("../imagenes/arrachera.jpg");
+}
+
+.opcion:nth-child(2){
+    background-image: url("../imagenes/bebidas.jpg");
+}
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    margin: 10px;
+    padding: 40px;
+    color: white;
+}
+
+footer .container{
+    height: 100px;
+}
+
+/********************************* comida *****************************************/
+
