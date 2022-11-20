@@ -4,30 +4,135 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="mixologia, cerveza, tarros, micheladas, cheladas, margarita, mixologia de autor, bebidas alcholicas, cafe, vino, clericot">
+    <meta name="description" content="Bebidas tradicionales y mixologia de autor que hará explotar tu paladar.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagenes/icono.ico" type="image/x-icon">
     <title>Bebidas</title>
 </head>
-<body>
+<body class="container-fluid">
     <header>
-        <div class="container">
-            <nav>
-                <img src="../imagenes/logo.jpg" alt="logo" class="logo">
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="comida.html">Comida</a></li>
-                    <li><a href="#">Bebidas</a></li>
-                    <li><a href="ubicacion.html">Ubicacion</a></li>
-                    <li><a href="galeria.html">Galería</a></li>
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+            <img src="../imagenes/logo.jpg" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="comida.html">Comida</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bebidas.html">Bebidas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ubicacion.html">Ubicación</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galeria.html">Galería</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
     </header>
 
     <main>
 
         <section>
             <div class="container">
-                <h1>Nuestro menu de bebidas</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae sequi, laborum doloribus pariatur voluptatibus corporis possimus ullam ad magni consequuntur quas quaerat voluptas velit non iure aliquid labore asperiores porro.</p>
+                <h1>Nuestro menú de bebidas</h1>
+            </div>
+            <div class="container">
+                <div class="menu">
+                <h2 class="menu-grupo-titulo">
+                    Mixologia tradicional
+                </h2>
+                <div class="menu-grupo">
+                    <div class="menu-item">
+                    <img class="menu-item-imagen" src="../imagenes/margaritaFrutos.jpg" alt="margaritaFrutos">
+                    <div class="menu-item-texto">
+                        <h3 class="menu-item-titulo">
+                        <span class="menu-item-nombre">Margarita de frutos rojos</span>
+                        <span class="menu-item-precio">$90</span>
+                        </h3>
+                        <p class="menu-item-descripcion">
+                        Mezcla de tequila, triple sec y frutos rojos naturales.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="menu-item">
+                    <img class="menu-item-imagen" src="../imagenes/carajillo.jpg" alt="carajillo">
+                    <div class="menu-item-texto">
+                        <h3 class="menu-item-titulo">
+                        <span class="menu-item-nombre">Carajillo</span>
+                        <span class="menu-item-precio">$90</span>
+                        </h3>
+                        <p class="menu-item-descripcion">
+                        Café expresso shakeado con Licor 43 y servido en un vaso aumado con canela.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="menu-item">
+                    <img class="menu-item-imagen" src="../imagenes/ginTonic.jpg" alt="ginTonic">
+                    <div class="menu-item-texto">
+                        <h3 class="menu-item-titulo">
+                        <span class="menu-item-nombre">Gin tonic</span>
+                        <span class="menu-item-precio">$90</span>
+                        </h3>
+                        <p class="menu-item-descripcion">
+                        Para los que prefieren las cosas simples, Ginebra Bombay y tónica, así nomás.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="menu-item">
+                    <img class="menu-item-imagen" src="../imagenes/clericot.jpg" alt="clericot">
+                    <div class="menu-item-texto">
+                        <h3 class="menu-item-titulo">
+                        <span class="menu-item-nombre">Clericot</span>
+                        <span class="menu-item-precio">$75</span>
+                        </h3>
+                        <p class="menu-item-descripcion">
+                        Mezcla de vino y jugo de naranja, coronado con trocitos de manzana y nuez.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                <h2 class="menu-grupo-titulo">
+                    Mixologia de autor
+                </h2>
+                <div class="menu-grupo">
+                    <div class="menu-item">
+                    <img class="menu-item-imagen" src="../imagenes/volcanBlue.jpg" alt="volcanBlue">
+                    <div class="menu-item-texto">
+                        <h3 class="menu-item-titulo">
+                        <span class="menu-item-nombre">Volcan blue</span>
+                        <span class="menu-item-precio">$110</span>
+                        </h3>
+                        <p class="menu-item-descripcion">
+                        Jugo de naranja shakeado con Curacao y sevido con tequila.
+                        </p>
+                    </div>
+                    </div>
+                    <div class="menu-item">
+                    <img class="menu-item-imagen" src="../imagenes/tejuimezcalli.jpg" alt="tejuimezcalli">
+                    <div class="menu-item-texto">
+                        <h3 class="menu-item-titulo">
+                        <span class="menu-item-nombre">Tejuimezcalli</span>
+                        <span class="menu-item-precio">$110</span>
+                        </h3>
+                        <p class="menu-item-descripcion">
+                        Mezcla de tejuino y jugo de limón, tamarindo y shakeado con mezcal para curar el alma.
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
             </div>
         </section>
 
@@ -37,6 +142,9 @@
         <div class="container">
             <p>&copy; Xolima 2022</p>
         </div>
-</footer>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
 </body>
 </html>
