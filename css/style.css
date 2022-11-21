@@ -30,10 +30,12 @@ button:hover{
 
 .container-fluid{
     padding: 0;
+    width: 100%;
 }
 
 header{
     background-color:#F57F20;
+    width: 100%;
 }
 
 header img{
@@ -43,16 +45,7 @@ header img{
     padding: 25px 30px;
 }
 
-header .container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}   
-
 header nav{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
     padding-bottom: 25px;
 }
 
@@ -65,9 +58,6 @@ header ul{
 }
 
 header li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     margin: 30px;
     padding: 10px 50px;
     font-size: 30px;
@@ -83,10 +73,13 @@ header a:hover{
     color: blue;
 }
 
-header img{
+.navbar-nav{
+    margin: 0 auto;
     display: flex;
-    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
 
 
 
